@@ -30,10 +30,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/daniel-butler/onenote-web-extractor.git"
+    "url": "https://github.com/daniel-butler/Onenote-web-extractor.git"
   },
   "bugs": {
-    "url": "https://github.com/daniel-butler/onenote-web-extractor/issues"
+    "url": "https://github.com/daniel-butler/Onenote-web-extractor/issues"
   },
-  "homepage": "https://github.com/daniel-butler/onenote-web-extractor#readme"
+  "homepage": "https://github.com/daniel-butler/Onenote-web-extractor#readme"
 }
