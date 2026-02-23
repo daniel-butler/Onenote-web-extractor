@@ -1,18 +1,24 @@
 {
   "name": "onenote-web-extractor",
   "version": "1.0.0",
-  "description": "Extract OneNote pages from view-only web links using Playwright",
-  "main": "index.js",
+  "description": "Extract your own data from Microsoft OneNote view-only web links using Playwright",
+  "main": "extract.js",
+  "bin": {
+    "onenote-extract": "./extract.js"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "extract": "node extract.js",
+    "install-browsers": "npx playwright install chromium"
   },
   "keywords": [
     "onenote",
     "extractor",
     "playwright",
     "automation",
-    "web-scraping",
-    "markdown"
+    "data-liberation",
+    "markdown",
+    "migration",
+    "backup"
   ],
   "author": "Daniel Butler",
   "license": "MIT",
@@ -25,5 +31,9 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/daniel-butler/onenote-web-extractor.git"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/daniel-butler/onenote-web-extractor/issues"
+  },
+  "homepage": "https://github.com/daniel-butler/onenote-web-extractor#readme"
 }

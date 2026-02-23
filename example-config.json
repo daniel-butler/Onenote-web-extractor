@@ -1,20 +1,21 @@
 {
-  "notebookUrl": "https://1drv.ms/o/c/your-id-here/...",
+  "notebookUrl": "https://1drv.ms/o/c/abc123xyz/your-notebook-id-here",
   "outputDir": "./output",
   "sections": [
     {
-      "name": "Work Projects",
+      "name": "Section 1",
       "pages": [
-        "Project Alpha",
-        "Project Beta",
-        "Meeting Notes"
+        "Page A",
+        "Page B", 
+        "Page C"
       ]
     },
     {
-      "name": "Personal",
+      "name": "Section 2",
       "pages": [
-        "Ideas",
-        "Reading List"
+        "Introduction",
+        "Notes",
+        "Summary"
       ]
     }
   ]
