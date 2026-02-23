@@ -130,16 +130,16 @@ if (require.main === module) {
     console.error('Usage: onenote-batch-extract.js <config.json>');
     console.error('\nConfig format:');
     console.error(JSON.stringify({
-      notebookUrl: "https://1drv.ms/...",
+      notebookUrl: "https://1drv.ms/o/c/your-notebook-id/...",
       outputDir: "./output",
       sections: [
         {
-          name: "Staff",
-          pages: ["Action Steps", "Benefits Import", "Time to Complete Tasks"]
+          name: "Section 1",
+          pages: ["Page A", "Page B", "Page C"]
         },
         {
-          name: "AP",
-          pages: ["Fast Lane", "GFS Guidelines companywide"]
+          name: "Section 2",
+          pages: ["Introduction", "Notes", "Summary"]
         }
       ]
     }, null, 2));
